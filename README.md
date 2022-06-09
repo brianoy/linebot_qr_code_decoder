@@ -1,5 +1,6 @@
 # using linebot to decode the qr/bar code via heroku inside the chatroom
   一個簡單的小作品，因為當初創立linebot時，不是選擇login的頻道類型，所以不能用Liff來掃描qr code，不過藉由heroku可以由line bot機器人實現由heroku app來解碼qr/bar code的訊息，因為上傳到heroku，所以需要在buildpack中加入apt，以及根目錄內aptfile內加入libzbar0、libzbar-dev
+The picture user sent would save at under ./static temporarily. Heroku might clear the cache every dyno restart.(not sure)
 
 ## requirements
 1. A heroku app **(https<area>://dashboard.heroku.com/apps)**
