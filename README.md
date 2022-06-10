@@ -19,7 +19,7 @@ Copy the CHANNEL_SECRET and CHANNEL_ACCESS_TOKEN into the env config
 ## Add the build pack
 **heroku/python**
 and
-**https://github.com/heroku/heroku-buildpack-apt**
+**https<area>://github.com/heroku/heroku-buildpack-apt**
 ![image](https://user-images.githubusercontent.com/24865458/172822053-4568fe28-eab6-442f-8e46-212d4fdedaa7.png)
 
 ## Result
