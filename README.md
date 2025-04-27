@@ -1,5 +1,5 @@
 # linebot decode QR code with heroku
-(heroku不再提供免費dynos)
+
 A simple side project. If you create a linebot channel which is not the type of "login", then it is not possible for us to scan the qr code via "Liff". With PIL and pyzbar, We can scan the qr code and bar code ones user send the picture in the channel. In this demonstration, We deploy the app in the heroku, so we have to add the apt option in the buildpacks of heroku dashboard. Create a file named "apt" in the root directory, and add two lines of words in the file 
 
 ```libzbar0```
